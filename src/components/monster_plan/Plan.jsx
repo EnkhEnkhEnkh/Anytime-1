@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "./Header";
+import Header from "./PlanHeader";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../../index.css";
 
@@ -70,7 +70,7 @@ const gaint_plan = [
   },
 ];
 
-function MonsterPlan(bodyIndex) {
+const MonsterPlan = (bodyIndex) => {
   bodyIndex = 1;
   Header(bodyIndex);
   var plan_name;
@@ -139,6 +139,6 @@ function MonsterPlan(bodyIndex) {
       </div>
     </main>
   );
-}
+};
 
 export default MonsterPlan;

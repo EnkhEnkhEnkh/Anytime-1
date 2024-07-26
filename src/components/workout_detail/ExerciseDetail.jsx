@@ -7,14 +7,12 @@ function ExerciseDetail({ icon, title, value, unit }) {
       <img
         loading="lazy"
         src={icon}
-        className="mt-3 shrink-0 aspect-[1] w-[52px]"
+        className="mt-3 shrink-0 aspect-[1] w-2/5"
         alt=""
       />
-      <div className="flex flex-col my-auto">
-        <div className="text-lg font-bold tracking-normal leading-5 text-purple-600">
-          {title}
-        </div>
-        <div className="mt-2.5 text-base font-semibold tracking-normal leading-5 text-white">
+      <div className="flex flex-col">
+        <div className="purple-text">{title}</div>
+        <div className="normal-text">
           <span className="">{value} </span>
           {unit && <span className="text-xs ">{unit}</span>}
         </div>

@@ -23,7 +23,7 @@ function Header(bodyIndex) {
         className="shrink-0 self-start aspect-square w-[45px]"
         alt=""
       />
-      <h1 className="flex-auto my-auto">{title}</h1>
+      <h1 className="flex-auto">{title}</h1>
       <img
         loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/cd76182a64f30d6565742f0a8f6c4db50496a55d1b7ce978d8329ef86395bc2e?apiKey=7802387887ed4d09b4ca1b755a09be21&&apiKey=7802387887ed4d09b4ca1b755a09be21"
